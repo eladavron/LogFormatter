@@ -32,8 +32,6 @@ export function activate(context: vscode.ExtensionContext) {
 			var logInstance = logMatch[1];
 			vscode.window.showInformationMessage(`Logging instance called "${logInstance}"!`);
 
-			
-
 		}
 
 	});
